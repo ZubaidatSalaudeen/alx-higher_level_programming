@@ -1,11 +1,5 @@
 #!/usr/bin/python3
 def calculate():
-    '''
-    Imports functions from the file calculator_1.py,
-    does some maths
-
-    and outputs the results
-    '''
     from calculator_1 import add, sub, mul, div
     a = 10
     b = 5
