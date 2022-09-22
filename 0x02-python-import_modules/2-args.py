@@ -6,7 +6,7 @@ def print_args():
     from sys import argv
     n = len(argv)
     if n == 1:
-        print("0 arguments")
+        print("0 arguments.")
     else:
         if n == 2:
             print("{:d} argument:".format(n - 1))
@@ -14,6 +14,7 @@ def print_args():
             print("{:d} arguments:".format(n - 1))
         for i in range(1, n):
             print("{:d}: {}".format(i, argv[i]))
+
 
 if __name__ == "__main__":
     print_args()

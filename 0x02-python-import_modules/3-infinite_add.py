@@ -8,5 +8,7 @@ def add_args():
     for i in range(1, len(argv)):
         result += int(argv[i])
     print("{:d}".format(result))
+
+
 if __name__ == "__main__":
     add_args()
