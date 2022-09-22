@@ -2,7 +2,7 @@
 def add_1():
     '''
     imports tge function add from the file add_0.py
-    prints the result of the addition 1 + 2 = 3
+    outputs the result of the addition 1 + 2 = 3
     '''
     from add_0 import add
     a = 1
