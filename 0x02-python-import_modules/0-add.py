@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 def add_1():
     '''
-    imports tge function add from the file add_0.py
-    outputs the result of the addition 1 + 2 = 3
+    imports tge function add from the file indicated below
+    and outputs the result 1 + 2 = 3
     '''
     from add_0 import add
     a = 1
