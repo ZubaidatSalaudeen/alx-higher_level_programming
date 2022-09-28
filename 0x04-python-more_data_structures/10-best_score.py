@@ -7,5 +7,6 @@ def best_score(a_dictionary):
         if a_dictionary[i] > best_value:
             best_value = a_dictionary[i]
             best_score = i
-        else: continue
+        else:
+            continue
     return best_score
