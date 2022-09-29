@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
     if isinstance(roman_string, str) is False or roman_string is None:
-        return None
+        return 0
     roman_nums = {
             "I": 1,
             "V": 5,
