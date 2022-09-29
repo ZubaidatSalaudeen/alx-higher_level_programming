@@ -12,8 +12,9 @@ def roman_to_int(roman_string):
             "M": 1000}
     result = 0
     for i in range(0, len(roman_string)):
-        if roman_string[i] not in roman_nums:
-            return ("Not a string")
+        if roman_string[i] not in roman_nums or (i != len(roman_string) - 1
+                and roman_string[i + 1] not in roman_nums):
+            return 0
         if ((i != len(roman_string) - 1) and
                 roman_nums[roman_string[i]] < roman_nums[roman_string[i + 1]]):
             result -= roman_nums[roman_string[i]]
